@@ -4600,6 +4600,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1668876060, guid: 5088cd2c3b6864d48b2ce2ff198cb1f2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3821491025044898209, guid: 5088cd2c3b6864d48b2ce2ff198cb1f2, type: 3}
       propertyPath: m_Camera
       value: 
