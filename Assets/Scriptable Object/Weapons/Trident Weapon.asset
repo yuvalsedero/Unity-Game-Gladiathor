@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2340b4bb807eb6b469499228d8eb1e5a, type: 3}
+  m_Name: Trident Weapon
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5135051026901253008, guid: 73115516710dc4441980fd81c3497552, type: 3}
+  header: Trident
+  image: {fileID: 21300000, guid: 4fb8fd078bfb1c04abe99846a1a25818, type: 3}
+  level: 2
+  damage: 15
+  hitSound: 
+  speed: 16
+  cooldownDuration: 2
+  pierce: 3
+  pierceSound: Trident Pierce
+  range: 150
+  radius: 0
+  destroy: 1
+  destroyAfter: 5
+  homingSpeed: 0
+  homing: 0
+  knockBack: 1
+  ricochet: 0

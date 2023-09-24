@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2340b4bb807eb6b469499228d8eb1e5a, type: 3}
+  m_Name: Boomerang Weapon
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3023647624632125252, guid: 38d6ccd0fffebe645b6e396fcaa80a6d, type: 3}
+  header: Boomerang
+  image: {fileID: 21300000, guid: 74bb343429ea2cc4b83e564920ea104b, type: 3}
+  level: 0
+  damage: 10
+  hitSound: 
+  speed: 16
+  cooldownDuration: 2.7
+  pierce: 1
+  pierceSound: Boomerang Pierce
+  range: 10
+  radius: 0
+  destroy: 0
+  destroyAfter: 0
+  homingSpeed: 0
+  homing: 0
+  knockBack: 0
+  ricochet: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff275a708c88544c8c127d1f8965689, type: 3}
+  m_Name: Shauli
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1887664965994188028, guid: 24235f0624da27b4d94bcefdeadb8eb5, type: 3}
+  characterName: Shauli
+  maxHealth: 500
+  health: 500
+  damage: 20
+  speed: 5
+  level: 1
+  maxWine: 0
+  wine: 0
+  dashAmount: 0
+  dashCooldown: 0
+  dashPower: 0

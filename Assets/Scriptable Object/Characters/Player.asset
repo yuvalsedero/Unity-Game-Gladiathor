@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff275a708c88544c8c127d1f8965689, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5928747992213673976, guid: ff5c9463a77a4e74ebbf610944d1051d, type: 3}
+  characterName: 
+  maxHealth: 100
+  health: 100
+  damage: 0
+  speed: 8
+  level: 1
+  maxWine: 26.352655
+  wine: 0
+  dashAmount: 1
+  dashCooldown: 5
+  dashPower: 24
+  range: 0
+  deathSound: Player Death

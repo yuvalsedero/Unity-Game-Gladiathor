@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 55fd5a8e5bb643046a0e68379c2a0f8f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tridentStats: {fileID: 11400000, guid: f7b34d82465466b49ad2c817ab4949c9, type: 2}
+  - bombStats: {fileID: 11400000, guid: 169e844c8f8a57342a60d36a5ba2c997, type: 2}
+  - lightningStats: {instanceID: 0}
+  - eagleStats: {instanceID: 0}
+  - characterStats: {instanceID: 0}
+  - eaglePrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

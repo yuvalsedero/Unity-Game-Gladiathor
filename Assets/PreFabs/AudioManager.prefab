@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3518021258287716677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3518021258287716679}
+  - component: {fileID: 3518021258287716676}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3518021258287716679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3518021258287716677}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.572174, y: 12.129341, z: -0.6202394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3518021258287716676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3518021258287716677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533256ad439fa844a86590380f9c3af7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Bomb
+    clip: {fileID: 8300000, guid: c70ade337b5da464a8d158c208454eb4, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Boomerang Pierce
+    clip: {fileID: 8300000, guid: ab2bbeee7f1381940a6676be6f3096fc, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Boomerang Spinning
+    clip: {fileID: 8300000, guid: bba1b26055832204ab7e445f6c4116b5, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Eagle Attack
+    clip: {fileID: 8300000, guid: 5af0753bbb5f6c04c8d41067b8596e09, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Eagle Spawn
+    clip: {fileID: 8300000, guid: 97dd53c4127cabe48920c12819b1d3e2, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flying Eye Charge 1
+    clip: {fileID: 8300000, guid: e54b1370b378d0c4b88de3420fa1fbdd, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flying Eye Charge 2
+    clip: {fileID: 8300000, guid: d54dddc11eaedd0419e61b525c90d8a7, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flying Eye Charge 3
+    clip: {fileID: 8300000, guid: 3d8eaec774288d4498ced55923e6f55a, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flying Eye Death 1
+    clip: {fileID: 8300000, guid: 01856a5480c75564cad9138be58b27d0, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flying Eye Death 2
+    clip: {fileID: 8300000, guid: 7901e168cbdd12849a1810c5a58d4f03, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flying Eye Death 3
+    clip: {fileID: 8300000, guid: 1941deb23f6ec224494458b2447e78c6, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: LightningStrike
+    clip: {fileID: 8300000, guid: 3a0b3ecdeb04b6d41bb2812ed543ec34, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Orc Death
+    clip: {fileID: 8300000, guid: c606183430626b34f8de81fe45ae501d, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: PickUpWine
+    clip: {fileID: 8300000, guid: 9e1d52a741a7e574ead440fd229060d1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: PickUpHp
+    clip: {fileID: 8300000, guid: 4eef601df04cf654a97eab5b21c4678c, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: PickUpShrine
+    clip: {fileID: 8300000, guid: 30785dea037b00844ba653bdcb69b98c, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: Player Death
+    clip: {fileID: 8300000, guid: 88f51dc188c228246a7950cf2e01c2a5, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Player Hurt 1
+    clip: {fileID: 8300000, guid: 4e5b5f97d03918447a0974d8f9bb1774, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Player Hurt 2
+    clip: {fileID: 8300000, guid: 44070b5c1d312db479af9ca756c9c44b, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Dash
+    clip: {fileID: 8300000, guid: 968469e2def7b254d9d735ece3dbba95, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Rock Hit
+    clip: {fileID: 8300000, guid: e26334d44c54a7a439ebd857fc9fe671, type: 3}
+    volume: 0.5
+    pitch: 0.34
+    source: {fileID: 0}
+  - name: Saw Pierce
+    clip: {fileID: 8300000, guid: 9a5c7a986ef2611438f9e5c32ed74219, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: Saw Spawn
+    clip: {fileID: 8300000, guid: a89a22b04b497774aad0831e3997d9b0, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: Sorcerer Energy Ball
+    clip: {fileID: 8300000, guid: 7831857f349d1af41a9b1d32bf16745b, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: Trident Pierce
+    clip: {fileID: 8300000, guid: fb626cf47b9955443a0626d457d18c76, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: Ui Menu Click
+    clip: {fileID: 8300000, guid: 08e9c20a5c6a3804da29b0d1eddd2aa3, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+  - name: Ui Menu Hover
+    clip: {fileID: 8300000, guid: f8238d459535f904793553170605bb2a, type: 3}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}

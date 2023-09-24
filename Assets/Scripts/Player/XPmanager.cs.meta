@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c0f7ad53bd5de7a40a3f54ee1b6abcfa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - characterStats: {fileID: 11400000, guid: 6ff9d28843b29ed42871b588ee1e6a54, type: 2}
+  - wineBarUI: {instanceID: 0}
+  - slider: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
